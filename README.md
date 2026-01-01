@@ -8,6 +8,7 @@ For example:
 my_calendar.py
 
 2. Write the code
+# code    
 from calendar import *
 
 # Ask user for a year
