@@ -33,6 +33,7 @@ If you enter 2026, you’ll see a full calendar for the year 2026 printed in the
 Note :- 
 
 The values 2, 1, 8, 3 in the Python calendar.calendar() function call correspond to optional formatting parameters for the output. 
+<Br>
 	2 (width): The width of the date columns in characters (default is 2).
 	1 (lines per week): The number of lines used for each week (default is 1).
 	8 (column separation): The number of spaces between month columns (default is 6).
