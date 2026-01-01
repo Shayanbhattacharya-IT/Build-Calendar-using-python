@@ -8,17 +8,16 @@ For example:
 my_calendar.py
 
 2. Write the code
-# code    
+   
 from calendar import *
 
-# Ask user for a year
-year = int(input("Enter Year: "))
+year = int(input("Enter Year: ")) # Ask user for a year
 
-# Print the calendar for the whole year
-print(calendar(year, 2, 1, 8, 3))
+print(calendar(year, 2, 1, 8, 3)) # Print the calendar for the whole year
 
-# Ask user for a year
-year = int(input("Enter year: "))
+year = int(input("Enter year: ")) # Ask user for a year
+
+
 
 3. Save the file
 Save it as my_calendar.py.
