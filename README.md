@@ -1,12 +1,34 @@
 # Build-Calendar-using-python
 Build Calendar using python
 
-from calendar import *
+1. Create a Python file
+Name it calendar.py (or any name you like, but avoid naming it exactly calendar.py because it will conflict with Python’s built‑in calendar module).
 
-year = int(input("Enter Year: "))
+For example:
+my_calendar.py
 
-print(calendar(year, 2, 1, 8, 3))
+2. Write the code
+python
+import calendar   # correct spelling
 
+# Ask user for a year
+year = int(input("Enter year: "))
+
+# Print the calendar for the whole year
+print(calendar.calendar(year))
+
+3. Save the file
+Save it as my_calendar.py.
+
+4. Run the file in VS Code terminal
+bash
+python my_calendar.py
+If you named your file differently, replace my_calendar.py with your filename.
+
+🖥️ Example Output
+If you enter 2026, you’ll see a full calendar for the year 2026 printed in the terminal.
+
+Note:- 
 # The values 2, 1, 8, 3 in the Python calendar.calendar() function call correspond to optional formatting parameters for the output. 
 2 (width): The width of the date columns in characters (default is 2).
 1 (lines per week): The number of lines used for each week (default is 1).
